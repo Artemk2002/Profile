@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(102, 102, 102);
+}
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.714);
+    position: fixed;
+    z-index: 1;
+}
+.name {
+    text-align: center;
+    font-size: 40px;
+}
+.sidebarlinks{
+    text-align: center;
+    
+}
+.main{
+    margin-left:300px
+}
+.link{
+    margin:15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+ h4{
+    font-size: 55px;
+    text-align: center;
+    border-bottom:1px black;
+    padding-bottom:3px;
+    
+}  
+.profilepic{
+    max-width: 600px;
+    max-height: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.projectboxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cardTitle{
+  font-size: 30px;
+}
+.projectbox {
+    width: 380px;
+    height: 380px;
+    margin: 10px;
+    background: transparent;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: white;
+    border-radius: 0.3rem;
+}
+.projectbox:hover {
+    background-color: rgb(135, 133, 133);
+}
+.ending
+{   
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.footer1{
+    margin: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.para{
+    margin: 50px;
+    font-size: 20px;
+
+}
+ @media (max-width: 700px) {
+    .sidebar{
+        display: none;
+    }
+    .main{
+        margin-left: 0;
+    }
+    .link{
+        margin:15px;
+        text-decoration: none;
+        color: black;
+    }
+    .topbar{
+        background-color: rgba(255, 255, 255, 0.714);
+    }
+  
+}
+@media (min-width: 701px) {
+    .topbar{
+        display: none;
+    }
+  
+  
+}
